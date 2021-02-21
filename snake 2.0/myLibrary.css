@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+:root {
+    font-size: 16px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clickable:hover {
+    cursor: pointer;
+}
+.none {
+    display: none;
+}
+.button {
+    border-radius: 99999999999px;
+    padding: 5px 20px;
+    text-align: center;
+}
