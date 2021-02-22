@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake 2.1</title>
+
+    <link rel="shortcut icon" href="img/S.png"/>
+    <link rel="stylesheet" href="myLibrary.css">
+    <link rel="stylesheet" href="snake.css">
+    <script src="snake.js" defer></script>
+</head>
+
+<menu class="center">
+    <img src="img/Snake.png">
+    <p class="lastScore"></p>
+    <button class="start button clickable">Play</button>
+    <button class="difficulty button clickable">Difficulty settings</button>
+    <button class="beginner button clickable none" value="500">Beginner</button>
+    <button class="normal button clickable none" value="250">Normal</button>
+    <button class="hard button clickable none" value="100">Hard</button>
+    <button class="expert button clickable none" value="60">Expert</button>
+    <button class="back button clickable none">Back</button>
+    <p class="diff">Difficulty: <span class="difficultyText"></span></p>
+</menu>
+
+<body class="center">
+    <h1>Score: <span class="score">0</span></h1>
+    <div class="canvas"></div>
+</body>
+</html>
